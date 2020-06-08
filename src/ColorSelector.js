@@ -12,6 +12,31 @@ const ColorSelector = () => {
   const handleChange = (evt) => {
     setColor({ ...color, [evt.target.name]: evt.target.value });
   };
+  const radioChange = (evt) => {
+    setColor({ ...color, [evt.target.name]: evt.target.value });
+    switch (evt.target.value) {
+      case "analogous":
+        setColors(tinycolor(color.color).analogous());
+        break;
+      case "monochromatic":
+        setColors(tinycolor(color.color).monochromatic());
+        break;
+      case "splitcomplement":
+        setColors(tinycolor(color.color).splitcomplement());
+        break;
+      case "triad":
+        setColors(tinycolor(color.color).triad());
+        break;
+      case "tetrad":
+        setColors(tinycolor(color.color).tetrad());
+        break;
+      case "complement":
+        setColors(tinycolor(color.color).complement());
+        break;
+      default:
+        setColors(tinycolor(color.color).analogous());
+    }
+  };
 
   const handleSubmit = (evt) => {
     evt.preventDefault();
@@ -40,6 +65,7 @@ const ColorSelector = () => {
   };
   const handleClick = () => {
     let randomColor = tinycolor.random();
+    setColor({ ...color, color: randomColor.toHexString() });
     switch (color.scheme) {
       case "analogous":
         setColors(tinycolor(randomColor).analogous());
@@ -76,8 +102,11 @@ const ColorSelector = () => {
         <br></br>
       </div>
       <div>
-        <form onSubmit={handleSubmit} onChange={handleChange}>
-          <div className="form-check mx-3 form-check-inline">
+        <form onSubmit={handleSubmit}>
+          <div
+            className="form-check mx-3 form-check-inline"
+            onChange={radioChange}
+          >
             <div className="mx-2">
               <input
                 className="form-check-input"
@@ -85,6 +114,7 @@ const ColorSelector = () => {
                 name="scheme"
                 id="analagous"
                 value="analogous"
+                defaultChecked
               />
               <label htmlFor="radio">Analagous</label>
             </div>
@@ -136,7 +166,13 @@ const ColorSelector = () => {
           </div>
           <div className="row mx-3">
             <label htmlFor="input">Enter Your Base Color:</label>
-            <input type="text" name="color" value={color.color} required />
+            <input
+              type="text"
+              name="color"
+              value={color.color}
+              required
+              onChange={handleChange}
+            />
             <button type="submit" className=" mx-3 btn btn-primary">
               Generate Color Scheme
             </button>

@@ -2,6 +2,7 @@ import React from "react";
 import ColorBox from "./ColorBox";
 
 const ColorArea = (props) => {
+  console.log(props.colors);
   return (
     <div className="row mx-3">
       {Array.isArray(props.colors) ? (
