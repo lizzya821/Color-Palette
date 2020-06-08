@@ -7,7 +7,7 @@ const headerStyle = {
   fontSize: "50px",
   textAlign: "center",
   margin: "6rem 0",
-  color: "blue",
+  fontWeight: "bold",
 };
 
 function App() {
