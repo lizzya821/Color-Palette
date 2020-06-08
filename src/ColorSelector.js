@@ -14,8 +14,14 @@ const ColorSelector = () => {
     console.log(color);
     console.log(tinycolor(color));
   };
+  const handleClick = () => {
+    console.log("clicked");
+  };
   return (
     <div>
+      <button type="button" onClick={handleClick}>
+        Generate Random Color Scheme
+      </button>
       <form onSubmit={handleSubmit} onChange={handleChange}>
         <label htmlFor="input">Enter Your Base Color:</label>
         <input type="text" value={color} required />
