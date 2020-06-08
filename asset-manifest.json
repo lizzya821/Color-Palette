@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Color-Palette/static/css/main.acd46897.chunk.css",
-    "main.js": "/Color-Palette/static/js/main.931e69b4.chunk.js",
-    "main.js.map": "/Color-Palette/static/js/main.931e69b4.chunk.js.map",
+    "main.js": "/Color-Palette/static/js/main.8b0afb45.chunk.js",
+    "main.js.map": "/Color-Palette/static/js/main.8b0afb45.chunk.js.map",
     "runtime-main.js": "/Color-Palette/static/js/runtime-main.ead1a1b3.js",
     "runtime-main.js.map": "/Color-Palette/static/js/runtime-main.ead1a1b3.js.map",
     "static/js/2.dc957e45.chunk.js": "/Color-Palette/static/js/2.dc957e45.chunk.js",
     "static/js/2.dc957e45.chunk.js.map": "/Color-Palette/static/js/2.dc957e45.chunk.js.map",
     "index.html": "/Color-Palette/index.html",
-    "precache-manifest.306136858ee66ca41b9ee7de2abe7336.js": "/Color-Palette/precache-manifest.306136858ee66ca41b9ee7de2abe7336.js",
+    "precache-manifest.7f6c788c69310a06b0b189f6b203a5f3.js": "/Color-Palette/precache-manifest.7f6c788c69310a06b0b189f6b203a5f3.js",
     "service-worker.js": "/Color-Palette/service-worker.js",
     "static/css/main.acd46897.chunk.css.map": "/Color-Palette/static/css/main.acd46897.chunk.css.map",
     "static/js/2.dc957e45.chunk.js.LICENSE.txt": "/Color-Palette/static/js/2.dc957e45.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.ead1a1b3.js",
     "static/js/2.dc957e45.chunk.js",
     "static/css/main.acd46897.chunk.css",
-    "static/js/main.931e69b4.chunk.js"
+    "static/js/main.8b0afb45.chunk.js"
   ]
 }
