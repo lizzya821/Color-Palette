@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Color-Palette/static/css/main.23964488.chunk.css",
+    "main.css": "/Color-Palette/static/css/main.acd46897.chunk.css",
     "main.js": "/Color-Palette/static/js/main.c99757e1.chunk.js",
     "main.js.map": "/Color-Palette/static/js/main.c99757e1.chunk.js.map",
     "runtime-main.js": "/Color-Palette/static/js/runtime-main.ead1a1b3.js",
@@ -8,16 +8,16 @@
     "static/js/2.aa838ef3.chunk.js": "/Color-Palette/static/js/2.aa838ef3.chunk.js",
     "static/js/2.aa838ef3.chunk.js.map": "/Color-Palette/static/js/2.aa838ef3.chunk.js.map",
     "index.html": "/Color-Palette/index.html",
-    "precache-manifest.85b7b01a349a11f20eeedd6a81f37f8b.js": "/Color-Palette/precache-manifest.85b7b01a349a11f20eeedd6a81f37f8b.js",
+    "precache-manifest.31623ab3bac91076f287f6939c202530.js": "/Color-Palette/precache-manifest.31623ab3bac91076f287f6939c202530.js",
     "service-worker.js": "/Color-Palette/service-worker.js",
-    "static/css/main.23964488.chunk.css.map": "/Color-Palette/static/css/main.23964488.chunk.css.map",
+    "static/css/main.acd46897.chunk.css.map": "/Color-Palette/static/css/main.acd46897.chunk.css.map",
     "static/js/2.aa838ef3.chunk.js.LICENSE.txt": "/Color-Palette/static/js/2.aa838ef3.chunk.js.LICENSE.txt",
     "static/media/mintbean.png": "/Color-Palette/static/media/mintbean.cf18b629.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ead1a1b3.js",
     "static/js/2.aa838ef3.chunk.js",
-    "static/css/main.23964488.chunk.css",
+    "static/css/main.acd46897.chunk.css",
     "static/js/main.c99757e1.chunk.js"
   ]
 }
