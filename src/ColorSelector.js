@@ -101,12 +101,9 @@ const ColorSelector = () => {
         </button>
         <br></br>
       </div>
-      <div>
+      <div className="row">
         <form onSubmit={handleSubmit}>
-          <div
-            className="form-check mx-3 form-check-inline"
-            onChange={radioChange}
-          >
+          <div className="form-check mx-3 row" onChange={radioChange}>
             <div className="mx-2">
               <input
                 className="form-check-input"
@@ -178,8 +175,10 @@ const ColorSelector = () => {
             </button>
           </div>
         </form>
+        <div className="col">
+          <ColorArea colors={colors} />
+        </div>
       </div>
-      <ColorArea colors={colors} />
     </div>
   );
 };
